@@ -1,4 +1,4 @@
-import 'package:demo_ui/screens/home.screen.dart';
+import 'package:demo_ui/screens/main.screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'UI Demo',
+      title: 'Portfolio Project',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: MainScreen(),
     );
   }
 }
