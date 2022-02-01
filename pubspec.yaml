@@ -37,6 +37,8 @@ dependencies:
   animated_text_kit: ^4.2.1
   google_fonts: ^2.2.0
   rename: ^2.0.1
+  get: ^4.6.1
+  dots_indicator: ^2.0.0
 
 dev_dependencies:
   flutter_test:
